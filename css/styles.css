@@ -1,0 +1,27 @@
+.portfolio__wrapper {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  align-items: flex-start;
+}
+
+.portfolio {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-left: 80px;
+  margin-bottom: 30px;
+}
+
+.portfolio__item {
+  font-weight: 600;
+  font-size: 18px;
+  margin-left: 20px;
+  margin-bottom: 12px;
+  font-family: "Roboto", "Arial", sans-serif;
+}
+
+.portfolio__item a{
+  font-weight: normal;
+  margin-left: 5px;
+}
